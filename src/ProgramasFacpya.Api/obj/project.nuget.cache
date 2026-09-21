@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "pGRouukvm7g=",
+  "success": true,
+  "projectFilePath": "/home/alaneliz/Apps/Code/App_Movil/progamas/prog1/src/ProgramasFacpya.Api/ProgramasFacpya.Api.csproj",
+  "expectedPackageFiles": [
+    "/home/alaneliz/.nuget/packages/microsoft.aspnetcore.openapi/9.0.18/microsoft.aspnetcore.openapi.9.0.18.nupkg.sha512",
+    "/home/alaneliz/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512",
+    "/home/alaneliz/.nuget/packages/scalar.aspnetcore/2.16.18/scalar.aspnetcore.2.16.18.nupkg.sha512"
+  ],
+  "logs": []
+}
