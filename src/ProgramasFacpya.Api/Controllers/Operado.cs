@@ -27,7 +27,7 @@ public class Selectivas : ControllerBase
             return Ok($"El numero {numero} es IGUAL a 0.");
         }
     }
-
+    
     // -------------------------------------------------------------
     // Ejercicio 2
     // Promedio de 5 materias. Si esta entre 60 y 100 -> APROBO,
@@ -48,6 +48,8 @@ public class Selectivas : ControllerBase
             return Ok($"Promedio: {promedio}. El estudiante NO APROBO el semestre.");
         }
     }
+
+
 
     // -------------------------------------------------------------
     // Ejercicio 3
@@ -156,4 +158,21 @@ public class Selectivas : ControllerBase
             return Ok($"La letra '{letra}' NO es una vocal (es consonante).");
         }
     }
+
+    [HttpGet("v/{Cadena}")]
+    public IActionResult v(string Cadena)
+    {
+        string vocal = Cadena.ToLower();
+        
+        if (vocal == "a" ||vocal == "e" ||vocal == "i" ||vocal == "o" ||vocal == "u")
+        {
+            return Ok("Es vocal");
+        }
+        else
+        {
+            return Ok ("No es vocal");
+        }
+        
+    }
+    
 }
