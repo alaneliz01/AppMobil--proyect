@@ -1,5 +1,8 @@
 using ProgramasFacpya.Api.Common;
 using Scalar.AspNetCore;
+using ProgramasFacpya.Api.Features.Maestros;
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,12 +11,13 @@ builder.Services.AddControllers();
 builder.Services.AddFluentValidationConfig();
 builder.Services.AddOpenApi();
 
+
 // Registrar DbContext (conexion a BD)
 builder.Services.AddSingleton<ProgramasFacpya.Api.Data.DbContext>();
 
 // Registrar Services
 builder.Services.AddScoped<ProgramasFacpya.Api.Features.Alumnos.AlumnoService>();
-
+builder.Services.AddScoped<ProgramasFacpya.Api.Features.Maestros.MaestroService>();
 // CORS - para que el FRONT pueda conectarse
 builder.Services.AddCors(options =>
 {

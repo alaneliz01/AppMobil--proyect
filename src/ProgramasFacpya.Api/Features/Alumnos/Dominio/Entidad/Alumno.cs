@@ -8,7 +8,5 @@ public class Alumno
     public string AMaterno { get; set; } = string.Empty;
     public byte IdCarrera { get; set; }
     public DateTime FecRegistro { get; set; }
-
-    // Descripcion de la carrera (viene del JOIN con CARRERA)
     public string Carrera { get; set; } = string.Empty;
 }
