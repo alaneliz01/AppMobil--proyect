@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6uk8MNC1S0g=",
+  "dgSpecHash": "eQFjQOJY+6g=",
   "success": true,
   "projectFilePath": "/home/alaneliz/Apps/Code/App_Movil/progamas/prog1/src/ProgramasFacpya.Api/ProgramasFacpya.Api.csproj",
   "expectedPackageFiles": [
@@ -39,7 +39,10 @@
     "/home/alaneliz/.nuget/packages/system.memory.data/8.0.1/system.memory.data.8.0.1.nupkg.sha512",
     "/home/alaneliz/.nuget/packages/system.security.cryptography.pkcs/9.0.11/system.security.cryptography.pkcs.9.0.11.nupkg.sha512",
     "/home/alaneliz/.nuget/packages/system.security.cryptography.protecteddata/9.0.11/system.security.cryptography.protecteddata.9.0.11.nupkg.sha512",
-    "/home/alaneliz/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512"
+    "/home/alaneliz/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512",
+    "/home/alaneliz/.nuget/packages/microsoft.netcore.app.ref/9.0.22/microsoft.netcore.app.ref.9.0.22.nupkg.sha512",
+    "/home/alaneliz/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.22/microsoft.aspnetcore.app.ref.9.0.22.nupkg.sha512",
+    "/home/alaneliz/.nuget/packages/microsoft.netcore.app.host.linux-x64/9.0.22/microsoft.netcore.app.host.linux-x64.9.0.22.nupkg.sha512"
   ],
   "logs": []
 }
